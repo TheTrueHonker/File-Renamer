@@ -12,3 +12,6 @@ for file in files:
     old_file_name = folder_path + file
     new_file_name = folder_path + prefix + file
     os.rename(old_file_name, new_file_name)
+
+print('Finished!')
+input('Press any key to close this window...')
